@@ -159,9 +159,8 @@ exports.textDonasi = () => {
     return `
 Hai, terimakasih telah menggunakan bot ini, untuk mendukung bot ini kamu dapat membantu dengan berdonasi dengan cara:
 
-via dana/pulsa : 081289096745
-via shopeepay : bri 112082390009516 A.N ridho040203
-via rekening BRI : 753501017096533 A.N : RIDHO SETIAWAN
+via pulsa : 089693848709
+
 
 NB : DONASI DARI KALIAN UNTUK PERKEMBANGAN BOT INI KEDEPANNYA, TETIMA KASIH
 
@@ -170,5 +169,5 @@ Doakan agar author bot ini dapat ide-ide yang kreatif lagi
 
 Donasi akan digunakan untuk pengembangan dan pengoperasian bot ini.
 
-Terimakasih. -ridho`
+Terimakasih. -daris`
 }
