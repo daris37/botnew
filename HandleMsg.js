@@ -157,14 +157,14 @@ module.exports = HandleMsg = async (aruga, message) => {
             break
         case 'ownerbot':
             await aruga.sendContact(from, ownerNumber)
-            .then(() => aruga.sendText(from, 'Jika kalian ingin request fitur silahkan chat nomor owner!'))
+            .then(() => aruga.sendText(from, 'Lu bukan admind GOBLOK!!'))
             break
         case 'join':
             if (args.length == 0) return aruga.reply(from, `Jika kalian ingin mengundang bot kegroup silahkan invite atau dengan\nketik ${prefix}join [link group]`, id)
             let linkgrup = body.slice(6)
             let islink = linkgrup.match(/(https:\/\/chat.whatsapp.com)/gi)
             let chekgrup = await aruga.inviteInfo(linkgrup)
-            if (!islink) return aruga.reply(from, 'Maaf link group-nya salah! silahkan kirim link yang benar', id)
+            if (!islink) return aruga.reply(from, 'Donasi dulu oii', id)
             if (isOwnerBot) {
                 await aruga.joinGroupViaLink(linkgrup)
                       .then(async () => {
